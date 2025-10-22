@@ -15,6 +15,4 @@ jobs:
       disable_behat: true
       disable_grunt: true
       moodle_branches: MOODLE_500_STABLE
-      php-version: '8.3'
- 
-
+      min_php: '8.3'
