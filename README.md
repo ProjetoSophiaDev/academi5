@@ -1,3 +1,6 @@
+
+[![ci](https://github.com/ProjetoSophiaDev/academi5/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ProjetoSophiaDev/academi5/actions/workflows/ci.yml?branch=main)
+
 # Academi V5.0 source files
 
 Academi - a responsive Moodle theme developed by LMSACE
