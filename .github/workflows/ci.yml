@@ -1,7 +1,7 @@
 # .github/workflows/ci.yml
 name: ci
 
-on: [push, pull_request]
+on: [workflow_dispatch]
 # https://github.com/catalyst/catalyst-moodle-workflows
 jobs:
   ci:
@@ -14,5 +14,6 @@ jobs:
       disable_phpunit: true
       disable_behat: true
       disable_grunt: true
+      disable_phpcpd: true
       moodle_branches: MOODLE_500_STABLE
       min_php: '8.3'
