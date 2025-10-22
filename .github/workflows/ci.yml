@@ -15,6 +15,6 @@ jobs:
       disable_behat: true
       disable_grunt: true
       moodle_branches: MOODLE_500_STABLE
-      php: '8.3'
-      database: 'mariadb'
+      php_version: '8.3'
+      db: mariadb
 
