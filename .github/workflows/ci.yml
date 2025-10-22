@@ -2,7 +2,7 @@
 name: ci
 
 on: [push, pull_request]
-
+# https://github.com/catalyst/catalyst-moodle-workflows
 jobs:
   ci:
     uses: catalyst/catalyst-moodle-workflows/.github/workflows/ci.yml@main
@@ -12,4 +12,4 @@ jobs:
     with:
       # Any further options in this section
       disable_phpunit: true
-      moodle_branches: MOODLE_501_STABLE
+      moodle_branches: MOODLE_500_STABLE
